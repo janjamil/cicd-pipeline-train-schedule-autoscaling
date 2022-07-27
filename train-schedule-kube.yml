@@ -24,10 +24,10 @@ spec:
   selector:
     matchLabels:
       app: train-schedule
-  template:
-    metadata:
-      labels:
-        app: train-schedule
+template:
+  metadata:
+    labels:
+      app: train-schedule
     spec:
       containers:
       - name: train-schedule
